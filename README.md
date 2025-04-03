@@ -18,6 +18,7 @@ Components for Authentication
 
 3 Register
 
+
 1 Navbar
 
  Handles the logout feature.
@@ -35,17 +36,22 @@ Components for Authentication
 
 
 Components for Tasks 
+
 1️ Dashboard (Main Component)
 Manages state for tasks, selected task, and selected date.
 Fetches tasks when the selected date changes.
 Renders TaskFormWithCalendar (Form + Calendar) and TaskList (Task Display).
 
+
 2️ TaskFormWithCalendar (Task Form + Calendar)
+
 Handles task input (title, description, priority).
 Includes a calendar for selecting the task date.
 Updates selectedDate when the user picks a new date.
 
+
 3️ TaskList (List of Tasks)
+
 Displays tasks for the selected date.
 Provides Edit and Delete buttons.
 Calls onEdit(task) when Edit is clicked.
