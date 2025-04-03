@@ -11,19 +11,25 @@ Instruction for run on local machine
 Component and their functions for React frontend
 
 Components for Authentication
+
 1 Navbar
+
 2 Login 
+
 3 Register
 
 1 Navbar
+
  Handles the logout feature.
  Show buttons for Login and Register
 
 2 Register
+
  If the user is not autheniticated we redirect user to register component.
  It register the user with name, Email, Paasword.
 
 3 Login
+
  User have to enter ID and password.
  If the user isvalid we send jwt token from backend it store it in local storage of the browser.
 
