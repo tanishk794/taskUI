@@ -1,4 +1,5 @@
 Instruction for run on local machine
+
  1 Install dependencies
  npm install
 
